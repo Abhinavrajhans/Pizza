@@ -8,6 +8,7 @@ public class Mushroom extends ToppingDecorator{
 	{
 		this.basepizza=basepizza;
 	}
+	@Override
 	public int cost()
 	{
 		return this.basepizza.cost()+50;
